@@ -1,11 +1,15 @@
+//nur nazurah bt md kamalullail //AI7DW3393
+//enumeration days in week
 
+#include<iostream>
+using namespace std;
 
-//if the day is sunday, what day is it?
-//write your code using enum and Sunday is your default 'day'
+enum week {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
 
-minggu hariIni;
-
-cout<<"Hari ke-"hariIni+1;
-return 0;
-
-
+int main()
+{
+	week today;
+	today=wednesday;
+	cout<<"day" <<today+1;
+	return 0;	
+}
